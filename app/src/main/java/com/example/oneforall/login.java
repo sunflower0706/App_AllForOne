@@ -28,11 +28,11 @@ public class login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
-                    Toast.makeText(MainActivity.this,"LOGIN SUCCESSFULL", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(login.this,"LOGIN SUCCESSFULL", Toast.LENGTH_SHORT).show();
                 }
-            }
-            else{
-                Toast.makeText(MainActivity.this,"LOGIN FAILED", Toast.LENGTH_SHORT).show();
+                else{
+                    Toast.makeText(login.this,"LOGIN FAILED", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
