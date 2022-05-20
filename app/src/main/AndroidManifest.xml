@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.oneforall">
 
     <application
@@ -10,10 +11,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Oneforall">
         <activity
-            android:name=".login"
+            android:name=".activity.SlideItemActivity"
             android:exported="false"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.ItemMovieActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MovieDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HomePageActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

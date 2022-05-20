@@ -1,23 +1,19 @@
-package com.example.oneforall;
+package com.example.oneforall.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.helper.widget.Carousel;
 
 import android.annotation.SuppressLint;
-import android.graphics.Color;
 import android.graphics.drawable.Drawable;
-import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 
-import com.google.android.material.card.MaterialCardView;
+import com.example.oneforall.R;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class HomePageActivity extends AppCompatActivity {
     @SuppressLint("UseCompatLoadingForDrawables")
     List<Drawable> drawable = new ArrayList<>();
 
@@ -25,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_home_page);
         drawable.add(this.getResources().getDrawable(R.drawable.facebook_icon));
         setupCarousel();
     }

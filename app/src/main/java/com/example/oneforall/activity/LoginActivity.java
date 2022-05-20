@@ -1,4 +1,4 @@
-package com.example.oneforall;
+package com.example.oneforall.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,9 +8,10 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.oneforall.R;
 import com.google.android.material.button.MaterialButton;
 
-public class login extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +21,7 @@ public class login extends AppCompatActivity {
         TextView username = (TextView) findViewById(R.id.username);
         TextView password = (TextView) findViewById(R.id.password);
 
-        MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
+        Button loginbtn = (Button) findViewById(R.id.loginbtn);
 
         //admin and admin
 
@@ -28,10 +29,10 @@ public class login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
-                    Toast.makeText(login.this,"LOGIN SUCCESSFULL", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this,"LOGIN SUCCESSFULL", Toast.LENGTH_SHORT).show();
                 }
                 else{
-                    Toast.makeText(login.this,"LOGIN FAILED", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this,"LOGIN FAILED", Toast.LENGTH_SHORT).show();
                 }
             }
         });

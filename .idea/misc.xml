@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/chien/AndroidStudioProjects/App_oneForAll/app/src/main/res/drawable-v24/ic_play_arrow_black_24dp.xml" value="0.14" />
+        <entry key="..\:/Users/chien/AndroidStudioProjects/App_oneForAll/app/src/main/res/layout/activity_home_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chien/AndroidStudioProjects/App_oneForAll/app/src/main/res/layout/activity_item_movie.xml" value="0.33" />
         <entry key="..\:/Users/chien/AndroidStudioProjects/App_oneForAll/app/src/main/res/layout/activity_login.xml" value="0.12685185185185185" />
         <entry key="..\:/Users/chien/AndroidStudioProjects/App_oneForAll/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/chien/AndroidStudioProjects/App_oneForAll/app/src/main/res/layout/activity_movie_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chien/AndroidStudioProjects/App_oneForAll/app/src/main/res/layout/activity_sign_up.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/chien/AndroidStudioProjects/App_oneForAll/app/src/main/res/layout/activity_slide_item.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/chien/AndroidStudioProjects/App_oneForAll/app/src/main/res/layout/motion_layout.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/chien/AndroidStudioProjects/App_oneForAll/app/src/main/res/layout/motion_scene.xml" value="0.36666666666666664" />
         <entry key="..\:/app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2375" />
